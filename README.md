@@ -15,9 +15,4 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 
 ## Deploying to Heroku
 
-You must have valid credantials to deploy.
-
-```sh
-$ git push heroku master
-$ heroku open
-```
+All pushes to the master branch will redeploy to Heroku.
